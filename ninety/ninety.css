@@ -1,4 +1,9 @@
 
+div.topnav a:hover { color: #FF6600 !important;
+}
+.scroll-home{
+  cursor: pointer;
+}
 #title {
   background-image: url('https://40.media.tumblr.com/4de046f1273456deea6a5c0b0623f7c1/tumblr_o358xmz8Gd1tbrzcbo1_1280.jpg');
   background-repeat: no-repeat;
@@ -61,8 +66,6 @@ hr{
 .stats{
   color: #000000;
   text-align: right;
-}
-div.topnav a:hover { color: #FF6600 !important;
 }
 .container{
   max-width: 750px;
