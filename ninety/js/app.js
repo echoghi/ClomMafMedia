@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+detectMobile();
 function detectMobile() { 
  if( navigator.userAgent.match(/Android/i)
  || navigator.userAgent.match(/webOS/i)
