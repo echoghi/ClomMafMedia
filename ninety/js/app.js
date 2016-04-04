@@ -16,4 +16,8 @@ function detectMobile() {
     $(".container").css({'max-width': '850px'});
   }
 }
+
+$(".scroll-home").click(function(){
+    $('html,body').animate({scrollTop: 0 }, 750);
+  });
 });
