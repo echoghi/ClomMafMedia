@@ -1,0 +1,148 @@
+
+#title {
+  background-image: url('https://40.media.tumblr.com/4de046f1273456deea6a5c0b0623f7c1/tumblr_o358xmz8Gd1tbrzcbo1_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 200px;
+  max-height: 200px;
+}
+h2{
+  color: #FF6600;
+}
+.center-align{
+  text-align: center;
+}
+#intro{
+  margin-bottom: 20px;
+}
+#about{
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.counts{
+  color: #FFFFFF;
+}
+#player{
+  margin-bottom: 10px;
+}
+#duration{
+  margin-left: 5px;
+}
+a.links{
+  text-decoration: none;
+  color: #000000;
+}
+
+.links:hover{
+  color: #FF6600;
+  cursor: pointer;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.fa-heart-o{
+  color: #FF0000;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.fa-play-circle-o{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.fa-comments-o{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.stats{
+  color: #000000;
+  text-align: right;
+}
+div.topnav a:hover { color: #FF6600 !important;
+}
+.container{
+  max-width: 750px;
+}
+
+span{
+  color: #FF6600;
+  font-weight: bold;
+}
+#music{
+  margin-top: 70px;
+}
+#banner {
+  background: linear-gradient(43deg, #ff4000, #ffc107, #ff8d65, #ef9a3a, #ec407a);
+  background-size: 600% 600%;
+  -webkit-animation: playerBackground 23s ease infinite;
+  -moz-animation: playerBackground 23s ease infinite;
+  animation: playerBackground 23s ease infinite;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  height: 150px;
+  max-width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+@-webkit-keyframes playerBackground {
+  0% {
+    background-position: 99% 0%
+  }
+  50% {
+    background-position: 2% 100%
+  }
+  100% {
+    background-position: 99% 0%
+  }
+}
+
+@-moz-keyframes playerBackground {
+  0% {
+    background-position: 99% 0%
+  }
+  50% {
+    background-position: 2% 100%
+  }
+  100% {
+    background-position: 99% 0%
+  }
+}
+
+@keyframes playerBackground {
+  0% {
+    background-position: 99% 0%
+  }
+  50% {
+    background-position: 2% 100%
+  }
+  100% {
+    background-position: 99% 0%
+  }
+}
+
+.well{
+  border: 1.5px solid #FF6600;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+}
+#svcc{
+  margin-top: 5px;
+  border-radius: 2px;
+}
+#trackcount{
+  font-weight: bold;
+}
+#footer{
+  font-weight: bold;
+  top: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: relative;
+}
