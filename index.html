@@ -69,8 +69,9 @@
     </div>
    </div>
     <div id="player"></div>
+    <p class="center-align"><input type="text" placeholder="Track Search"ng-model="search"></p>
     <div class="well" ng-controller="music as tracks">
-      <div ng-repeat="info in tracks.data">
+      <div class="item" ng-repeat="info in tracks.data | filter:search">
       <p><a scroll-to-player scroll-to="#player" class="links" ng-click="playTrack(info.permalink_url)">{{info.title}}</a><span id='duration'>({{info.duration | date:'mm:ss'}})</span>
       <br><span class="stats">{{info.favoritings_count}}<i class="fa fa-heart-o"></i>{{info.playback_count}}<i class="fa fa-play-circle-o"></i>{{info.comment_count}}<i class="fa fa-comments-o"></i> </span>
      </p>
