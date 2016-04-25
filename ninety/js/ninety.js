@@ -1,5 +1,5 @@
 (function() {
-  angular.module("ninety", [])
+  angular.module("ninety", ['ngAnimate'])
 
   .controller("bandInfo", ['$http', '$scope', 'soundservice', function($http, $scope, soundservice) {
 
