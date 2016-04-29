@@ -55,11 +55,7 @@ hr{
   margin-right: 5px;
   margin-left: 5px;
 }
-.fa-play-circle-o{
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.fa-comments-o{
+.fa-play-circle-o, .fa-comments-o{
   margin-left: 5px;
   margin-right: 5px;
 }
