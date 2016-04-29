@@ -88,6 +88,15 @@ span{
   font-family: 'Roboto';
 }
 
+@media screen and (min-width:40em) {
+  .container-fluid{
+    max-width: 90%;
+  }
+  .container{
+    max-width: 850px;
+  }
+}
+
 @-webkit-keyframes playerBackground {
   0% {
     background-position: 99% 0%
