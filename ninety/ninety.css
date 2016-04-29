@@ -97,6 +97,12 @@ span{
   }
 }
 
+@media only screen and (max-device-width:480px) {
+  .container{
+    max-width: 750px;
+  }
+}
+
 @-webkit-keyframes playerBackground {
   0% {
     background-position: 99% 0%
